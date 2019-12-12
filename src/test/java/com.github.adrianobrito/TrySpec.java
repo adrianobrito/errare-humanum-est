@@ -1,10 +1,9 @@
-import com.github.adrianobrito.ExceptionHandler;
-import com.github.adrianobrito.StandardExceptionHandler;
-import com.github.adrianobrito.Try;
+package com.github.adrianobrito;
+
 import org.junit.Assert;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertNotNull;
 
 public class TrySpec {
 
