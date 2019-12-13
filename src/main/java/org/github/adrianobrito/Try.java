@@ -1,4 +1,7 @@
-package com.github.adrianobrito;
+package org.github.adrianobrito;
+
+import org.github.adrianobrito.handlers.LambdaExceptionHandler;
+import org.github.adrianobrito.handlers.StandardExceptionHandler;
 
 import java.util.List;
 

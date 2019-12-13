@@ -1,4 +1,4 @@
-package com.github.adrianobrito;
+package org.github.adrianobrito;
 
 import static java.lang.String.format;
 

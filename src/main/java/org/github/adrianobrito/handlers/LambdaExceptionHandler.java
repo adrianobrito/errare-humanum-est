@@ -1,4 +1,4 @@
-package com.github.adrianobrito;
+package org.github.adrianobrito.handlers;
 
 
 @FunctionalInterface

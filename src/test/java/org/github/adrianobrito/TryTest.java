@@ -1,5 +1,7 @@
-package com.github.adrianobrito;
+package org.github.adrianobrito;
 
+import org.github.adrianobrito.handlers.ExceptionHandler;
+import org.github.adrianobrito.handlers.StandardExceptionHandler;
 import org.junit.Assert;
 import org.junit.Test;
 

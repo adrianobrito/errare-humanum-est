@@ -1,4 +1,4 @@
-package com.github.adrianobrito;
+package org.github.adrianobrito;
 
 /**
  * Created by adriano on 13/11/19.
