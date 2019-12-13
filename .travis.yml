@@ -1,1 +1,15 @@
 language: java
+
+before_deploy:
+  # Set up git user name and tag this commit
+  - git config --local user.name "adrianobrito"
+  - git config --local user.email "adrianosdebrito@gmail.com"
+  - export TRAVIS_TAG=${TRAVIS_TAG:-$(date +'%Y%m%d%H%M%S')-$(git log --format=%h -1)}
+  - git tag $TRAVIS_TAG
+
+deploy:
+  provider: releases
+  api_key: e05370c990b2bc7cb0a5f9a8430d5893bf9bb4ad
+  skip_cleanup: true
+  on:
+    tags: true
