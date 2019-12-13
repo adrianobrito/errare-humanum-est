@@ -5,7 +5,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertNotNull;
 
-public class TrySpec {
+public class TryTest {
 
     @Test
     public void shouldExecuteExceptionalBlock() {
