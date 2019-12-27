@@ -8,6 +8,16 @@ List<StandardExceptionHandler> exceptionHandlers = exceptionHandlerProvider.getE
 Try.execute(this::codeBlock).catchWith(exceptionHandlers);
 ```
 
+## Install
+
+```xml
+<dependency>
+  <groupId>org.github.adrianobrito</groupId>
+  <artifactId>errare-humanum-est</artifactId>
+  <version>1.0.1</version>
+</dependency>
+```
+
 ## Motivation
 
 When a code block can throws different exceptions, those exceptions are caught and handled in the same code block, 
