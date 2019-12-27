@@ -1,6 +1,6 @@
 package org.github.adrianobrito;
 
-import org.github.adrianobrito.handlers.ExceptionHandler;
+import org.github.adrianobrito.handlers.LambdaExceptionHandler;
 import org.github.adrianobrito.handlers.StandardExceptionHandler;
 import org.junit.Assert;
 import org.junit.Test;
@@ -16,7 +16,7 @@ public class TryTest {
 
     @Test
     public void shouldExecuteExceptionalBlockThatThrowsException() {
-        ExceptionHandler<ExampleException> exceptionHandler = Assert::assertNotNull;
+        LambdaExceptionHandler exceptionHandler = Assert::assertNotNull;
 
         Try.execute(this::blockWithException).catchWith(Assert::assertNotNull);
     }
